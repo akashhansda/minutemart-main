@@ -1,0 +1,37 @@
+{
+  "name": "minutemart",
+  "version": "1.0.0",
+  "description": "An ecommerce store ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snipex111/minutemart.git"
+  },
+  "author": "Abhishek Tiwari, Diveesha Deevela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snipex111/minutemart/issues"
+  },
+  "homepage": "https://github.com/snipex111/minutemart#readme",
+  "engines":{
+    "node" : "16.15.1"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "bootstrap": "^5.1.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "joi": "^17.6.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.9",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.0.0"
+  }
+}
